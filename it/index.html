@@ -44,11 +44,19 @@
         color: #FFFFFF;
     }
 
-    .footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+    body {
+        margin: 0 0 100px; /* bottom = footer height */
+    }
+    footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 100px;
+        width: 100%;
     }
 
     ul.navbar {
@@ -102,16 +110,16 @@
     <big><h1>Benvenuto nella mia pagina!</h1></big>
     <b><h2>Sono casungo, uno studente italiano.</h2></b>
     <br>
-      <div class="footer">
+      <footer>
       <hr>
         <p>
-          <a href="https://twitter.com/casungo/"> <img src="https://raw.githubusercontent.com/casungo/casungo/master/assets/social/twitter.png" alt="Twitter"></a>
-          <a href="https://telegram.me/casungo/"> <img src="https://raw.githubusercontent.com/casungo/casungo/master/assets/social/telegram.png" alt="Telegram"></a>
-          <a href="mailto:casungo@outlook.it"> <img src="https://raw.githubusercontent.com/casungo/casungo/master/assets/social/gmail.png" alt="Gmail"></a>
-          <a href="https://discord.gg/EZAWach/"> <img src="https://raw.githubusercontent.com/casungo/casungo/master/assets/social/discord.png" alt="Discord"></a>
-          <a href="https://reddit.com/user/casungo/"> <img src="https://raw.githubusercontent.com/casungo/casungo/master/assets/social/reddit.png" alt="Reddit"></a>
+          <a href="https://twitter.com/casungo/"> <img src="https://raw.githubusercontent.com/casungo/casungo/master/assets/social/twitter.png" alt="Twitter" height="48" width="48"></a>
+          <a href="https://telegram.me/casungo/"> <img src="https://raw.githubusercontent.com/casungo/casungo/master/assets/social/telegram.png" alt="Telegram" height="48" width="48"></a>
+          <a href="mailto:casungo@outlook.it"> <img src="https://raw.githubusercontent.com/casungo/casungo/master/assets/social/outlook.png" alt="Outlook" height="48" width="48"></a>
+          <a href="https://discord.gg/EZAWach/"> <img src="https://raw.githubusercontent.com/casungo/casungo/master/assets/social/discord.png" alt="Discord" height="48" width="48"></a>
+          <a href="https://reddit.com/user/casungo/"> <img src="https://raw.githubusercontent.com/casungo/casungo/master/assets/social/reddit.png" alt="Reddit" height="48" width="48"></a>
         </p>
-      </div>
+      </footer>
     </div>
   </div>
 </body>
