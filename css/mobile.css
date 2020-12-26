@@ -1,0 +1,86 @@
+/* Unused */
+@media screen and (max-width: 745px) {
+  body {
+    margin: 47px 0 0 0;
+  }
+
+  .fs-toggle {
+    display: block;
+    float: right;
+    margin: 4px 10px 0 0;
+  }
+
+  header ul {
+    display: none;
+    float: initial;
+    margin: 20px 0 20px 0;
+  }
+
+  header ul li {
+    display: block;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  li.selected {
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  .fs-brand {
+    width: 112px;
+    height: 22px;
+    margin: 4px 0 0 16px;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    min-height: 41px;
+  }
+
+  p {
+    margin: 25px;
+  }
+
+  h1 {
+    margin: 25px;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    line-height: 35px;
+  }
+
+  .fs-section {
+    padding: 20px;
+  }
+
+  .fs-card {
+    display: inline-block;
+    width: 80%;
+    max-height: 150em;
+    margin: 10px;
+  }
+
+  .fs-flex {
+    display: initial;
+  }
+
+  .fs-col {
+    width: initial;
+    padding: 0 20px 10px;
+  }
+
+  .fs-padding {
+    padding: 30px 0 10px 0;
+  }
+
+  .fs-toggle:hover+ul,
+  .fs-toggle:active+ul,
+  .fs-toggle:focus+ul {
+    display: block;
+  }
+}
