@@ -1,0 +1,21 @@
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding: 25px;
+}
+
+form {
+    padding: 75px;
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        padding: 25px;
+    }
+}
