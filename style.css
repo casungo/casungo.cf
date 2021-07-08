@@ -2,20 +2,25 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.bg-navbar {
+    background: #161B22;
+}
+
+.card {
+    background: #0D1117 !important;
+}
+
 body {
-    padding: 25px;
+    background: #010409 !important;
+    padding: 15px
 }
 
 form {
-    padding: 75px;
+    padding: 15px;
 }
 
-@media screen and (max-width: 750px) {
-    body {
-        padding: 10px;
-    }
-
-    form {
-        padding: 25px;
+@media screen and (min-width: 992px) {
+    .card {
+        width: 650px;
     }
 }
