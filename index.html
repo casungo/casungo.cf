@@ -35,6 +35,7 @@
     $(function () {
       $("#navbar").load("../elements/navbar.html");
       $("#footer").load("../elements/footer.html");
+      $("#socials").load("../elements/socials.html");
     });
   </script>
 </head>
@@ -51,18 +52,7 @@
     <div class="d-grid gap-2">
       <a href="../home" class="btn btn-primary mb-4">
         <i class="bi-display"></i> Personal site</a>
-      <a href="https://www.instagram.com/casungo/" class="btn btn-outline-light mb-2">
-        <i class="bi-instagram"></i> Instagram</a>
-      <a href="https://t.me/casungo/" class="btn btn-outline-light mb-2">
-        <i class="bi-telegram"></i> Telegram</a>
-      <a href="mailto:casungo@outlook.it" class="btn btn-outline-light mb-2">
-        <i class="bi-envelope"></i> Mail</a>
-      <a href="https://www.twitter.com/casungo/" class="btn btn-outline-light mb-2">
-        <i class="bi-twitter"></i> Twitter</a>
-      <a href="https://discord.com/users/178209677841137665" class="btn btn-outline-light mb-2">
-        <i class="bi-discord"></i> Discord</a>
-      <a href="https://github.com/casungo" class="btn btn-outline-light mb-2">
-        <i class="bi-github"></i> Github</a>
+      <div class="d-grid gap-2" id="socials"></div>
     </div>
     <div class="mt-3" id="footer"></div>
   </div>
