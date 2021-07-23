@@ -12,15 +12,16 @@
 
 body {
     background: #010409 !important;
-    padding: 15px
+    padding-top: 15px
 }
 
 form {
     padding: 15px;
 }
 
-@media screen and (min-width: 992px) {
-    .card {
-        width: 650px;
-    }
+.card img {
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    width: 100%;
 }
